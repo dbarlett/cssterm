@@ -1,9 +1,9 @@
 /*----FONTS----*/
-@import url(http://fonts.googleapis.com/css?family=Cantarell:700|Open+Sans:300&subset=cyrillic-ext);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
 
 /*--TERMINAL HOLDER--*/
 #terminal-window{
-  width: 98%;
+  width: 600px;
   margin-top:40px;
   margin-left: auto;
   margin-right: auto;
@@ -74,7 +74,7 @@
   font-size: 8px;
   font-weight: bold;
   color: #333;
-  font-family: 'Cantarell', sans-serif;
+  font-family: sans-serif;
   margin: 2px 0 0 4px;
 }
 
@@ -85,8 +85,8 @@
   top: 6px;
   width: 40%;
   left: 40%;
-  font-family: 'Cantarell', sans-serif;
-  font-size: 14px;
+  font-family: sans-serif;
+  font-size: 12px;
   font-weight: bold;
   color: #d5dfdf;
   line-height: 14px;
@@ -94,8 +94,8 @@
 
 /*--TERMINAL BODY--*/
 #terminal-body {
-  font-family: monospace; line-height: 1em;
-  font-size: 11px;
+  font-family: 'Droid Sans Mono'; line-height: 1em;
+  font-size: 12px;
   float: left;
   width: 100%;
   min-height: 30px;
@@ -105,7 +105,7 @@
 }
 
 
-#terminal-body p { color: gray!important; }
+#terminal-body p { color: white!important; }
 
 #terminal-body p::-moz-selection { background: #0b209e; }
 

@@ -7,8 +7,8 @@ $(document).ready(function() {
       '<': '&lt;',
       '>': '&gt;',
       ' ': '&nbsp;',
-      '#': '<root>[root@localhost]# </root>',
-      '$': '<user>[user@localhost]$ </user>'
+      '#': '<root>[root@barlettventures]# </root>',
+      '$': '<user>[client@barlettventures]$ </user>'
     };
     function replaceTag(tag) {
       return tagsToReplace[tag] || tag;
@@ -24,7 +24,7 @@ $(document).ready(function() {
       return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/ /g, '&nbsp');
     }
     function userReplace(str) {
-      return str.replace(/^#/gi, '<root>[root@localhost]# </root>').replace(/^\$/gi, '<user>[user@localhost]$ </user>');
+      return str.replace(/^#/gi, '<root>[root@barlettventures]# </root>').replace(/^\$/gi, '<user>[client@barlettventures]$ </user>');
     }
   }
 
@@ -42,7 +42,7 @@ $(document).ready(function() {
 				</div> \
 			</div> \
 			<div id="terminal-title"> \
-				user@localhost:~ \
+				client@barlettventures:~ \
 			</div> \
 		</div> \
 	</div> \
